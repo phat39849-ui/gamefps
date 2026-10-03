@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -713,7 +713,7 @@
     }
 
     /* TDM: rows carry their team colour, and the one-letter tag rides in the
-   name node exactly like the existing host / Bắe badges. */
+   name node exactly like the existing host / B?e badges. */
     #pvpBoard .pbRow.t0 {
       box-shadow: 0 0 0 1px var(--team0) inset
     }
@@ -2346,7 +2346,7 @@
     }
 
     body.hudEditing #stickBase::after {
-      content: 'CỄN';
+      content: 'C?N';
       position: absolute;
       left: 50%;
       bottom: -19px;
@@ -2415,8 +2415,8 @@
       <div class="panel row" style="flex-direction:column">
         <div class="row" style="width:min(460px,94%);margin:0 auto 10px">
           <input id="nameInput" maxlength="16" autocomplete="off" autocapitalize="off" spellcheck="false"
-            placeholder="TÊN CỦA BạN">
-          <button id="btnNameRandom" class="btn sm gh">NGẪU NHIÊN</button>
+            placeholder="T�N C?A B?N">
+          <button id="btnNameRandom" class="btn sm gh">NG?U NHI�N</button>
         </div>
         <div id="nameHint" class="tag" style="margin:0 auto 14px"></div>
         <button id="btnPve" class="btn pri">PvE SURVIVAL</button>
@@ -2462,25 +2462,25 @@
         <h3 style="margin-top:18px">Join a room</h3>
         <div class="row">
           <input id="joinInput" class="" maxlength="12" autocomplete="off" autocapitalize="characters"
-            spellcheck="false" placeholder="MÃ 4 KÝ TỰ">
+            spellcheck="false" placeholder="M� 4 K� T?">
           <button id="joinBtn" class="btn">JOIN</button>
         </div>
         <h3 id="lobbyRoomTitle" style="margin-top:18px">Room</h3>
         <div id="lobbyRoster"></div>
         <div class="row" style="margin-top:14px;flex-wrap:wrap">
-          <button id="btnStartMatch" class="btn pri">BẮT ĐẦU TRẬN ĐấU</button>
+          <button id="btnStartMatch" class="btn pri">B?T �?U TR?N �?U</button>
         </div>
         <div id="modePick" class="row" style="margin-top:12px;flex-wrap:wrap;display:none">
           <button id="btnModeTdm" class="btn sm modeOpt" type="button">TEAM DEATHMATCH<span class="md">A vs
               B</span></button>
-          <button id="btnModeFfa" class="btn sm modeOpt on" type="button">FREE-FOR-ALL<span class="md">mỗi
-              ngường</span></button>
+          <button id="btnModeFfa" class="btn sm modeOpt on" type="button">FREE-FOR-ALL<span class="md">m?i
+              ngu?ng</span></button>
         </div>
-        <div id="modeNote" class="tag" style="margin-top:8px;display:none">Chủ phòng đang chọn chế độ</div>
-        <div id="waitNote" class="tag wait" style="display:none">Đã vào phòng — đang chờ chủ phòng bắt đầu…</div>
+        <div id="modeNote" class="tag" style="margin-top:8px;display:none">Ch? ph�ng dang ch?n ch? d?</div>
+        <div id="waitNote" class="tag wait" style="display:none">�� v�o ph�ng � dang ch? ch? ph�ng b?t d?u�</div>
         <div id="lobbyStatus"></div>
-        <div id="netHint" class="tag" style="margin-top:10px">Nhập mã 4 ký tự, hoặc dán nguyên mã phòng (FPS-XXXX). Cả
-          hai người chơi đều cần có mạng.</div>
+        <div id="netHint" class="tag" style="margin-top:10px">Nh?p m� 4 k� t?, ho?c d�n nguy�n m� ph�ng (FPS-XXXX). C?
+          hai ngu?i choi d?u c?n c� m?ng.</div>
 
         <div class="row" style="margin-top:16px"><button id="lobbyBack" class="btn gh">BACK</button></div>
       </div>
@@ -2527,7 +2527,7 @@
         <div class="nm" style="margin-top:8px">KILLS <span class="v" id="pKills" style="font-size:16px">0</span></div>
       </div>
       <div id="pvpBoard">
-        <div class="pbTitle">BẢNG XẾP HẠNG</div>
+        <div class="pbTitle">B?NG X?P H?NG</div>
         <div id="pvpTeamScore" style="display:none"></div>
         <div id="pvpRows"></div>
       </div>
@@ -2536,7 +2536,7 @@
       <div id="netStatus">CONNECTING</div>
       <div id="centerMsg"></div>
       <div id="respawnTxt"></div>
-      <button id="btnEndSolo" class="btn" hidden>KẾT THÚC</button>
+      <button id="btnEndSolo" class="btn" hidden>K?T TH�C</button>
     </div>
 
     <div id="over" class="screen">
@@ -2575,9 +2575,9 @@
 
 
         <div class="row" style="margin-top:22px">
-          <button id="btnResumeGame" class="btn pri">RESUME &middot; TIẾP TỤC</button>
+          <button id="btnResumeGame" class="btn pri">RESUME &middot; TI?P T?C</button>
           <button id="btnQuitMenu" class="btn gh">QUIT TO MENU</button>
-          <button id="btnHudEdit" class="btn gh">CHỈNH BỐ CỤC NÚT (CUSTOMIZE HUD)</button>
+          <button id="btnHudEdit" class="btn gh">CH?NH B? C?C N�T (CUSTOMIZE HUD)</button>
         </div>
         <div class="setNote" id="setNoteGame">
           ESC toggles this menu. On desktop the cursor is re-locked automatically on RESUME or by
@@ -2595,42 +2595,42 @@
         <div class="title">CUSTOMIZE HUD</div>
 
         <div class="setRow hRow" id="hudSelRow">
-          <label>NÚT</label>
+          <label>N�T</label>
           <output id="hudSelName">&mdash;</output>
         </div>
 
         <div class="setRow hRow" id="hudScaleRow">
-          <label for="hudScale">Cỡ</label>
+          <label for="hudScale">C?</label>
           <input id="hudScale" class="slider" type="range" min="70" max="150" step="1" value="100">
           <output id="hudScaleVal">100%</output>
         </div>
 
         <div class="setRow hRow" id="hudAlphaRow">
-          <label for="hudAlpha">MỞ</label>
+          <label for="hudAlpha">M?</label>
           <input id="hudAlpha" class="slider" type="range" min="25" max="100" step="1" value="100">
           <output id="hudAlphaVal">100%</output>
         </div>
 
         <!-- contextual: only revealed once the joystick entry is selected -->
         <div class="setRow hRow" id="stickSizeRow">
-          <label for="stickSize">CẦN</label>
+          <label for="stickSize">C?N</label>
           <input id="stickSize" class="slider" type="range" min="70" max="260" step="1" value="112">
           <output id="stickSizeVal">112px</output>
         </div>
 
         <div class="hBtns">
-          <button id="btnHudSave" class="btn pri">LƯU</button>
-          <button id="btnHudClose" class="btn gh">HUỶ</button>
-          <button id="btnHudReset" class="btn gh mini">MẶC ĐịnH</button>
+          <button id="btnHudSave" class="btn pri">LUU</button>
+          <button id="btnHudClose" class="btn gh">HU?</button>
+          <button id="btnHudReset" class="btn gh mini">M?C �?nH</button>
         </div>
 
-        <div id="hudEditNote" class="setNote">Chỉ áp dụng trên thiết bệ cảm ứng &mdash; bạn vẫn có thể MẶC ĐịnH / HUỶ.
+        <div id="hudEditNote" class="setNote">Ch? �p d?ng tr�n thi?t b? c?m ?ng &mdash; b?n v?n c� th? M?C �?nH / HU?.
         </div>
-        <div class="setNote" id="hudEditHelp">Chạm một nût để chọn &middot; kéo để đổi vị trí &middot; Cỡ / MỞ để phóng
-          to và làm mờ.</div>
+        <div class="setNote" id="hudEditHelp">Ch?m m?t n�t d? ch?n &middot; k�o d? d?i v? tr� &middot; C? / M? d? ph�ng
+          to v� l�m m?.</div>
       </div>
     </div>
-    <div id="lockHint">CLICK TO LOCK MOUSE &middot; NHẤN ĐỂ KHOÁ CHUỘT</div>
+    <div id="lockHint">CLICK TO LOCK MOUSE &middot; NH?N �? KHO� CHU?T</div>
 
     <div id="touchUI">
       <div id="stickZone"></div>
@@ -2719,8 +2719,8 @@
          TURN is what makes a desktop-to-desktop join possible at all; see the
          long note on NetCfg for the network fact. */
       ICE_SERVERS: [
-        /* ---- STUN: dùng để khám phá địa chỉ công khai (srflx candidates).
-           Nhiều server dự phòng: nếu Google bị chặn thì Cloudflare / Twilio tiếp quản. */
+        /* ---- STUN: d�ng d? kh�m ph� d?a ch? c�ng khai (srflx candidates).
+           Nhi?u server d? ph�ng: n?u Google b? ch?n th� Cloudflare / Twilio ti?p qu?n. */
         { urls: 'stun:stun.l.google.com:19302' },
         { urls: 'stun:stun1.l.google.com:19302' },
         { urls: 'stun:stun2.l.google.com:19302' },
@@ -2739,11 +2739,11 @@
          them with their own relay in the settings panel, or to switch them off
          with the checkbox there. Nothing else in this file knows these.
     
-         PC-to-PC qua Symmetric NAT / CGNAT / VPN bắt buộc cần relay (TURN).
-         Chrome obfuscates local IPs (.local mDNS) nên host candidates bị ẩn.
-         STUN chỉ cho srflx -- không đủ khi cả hai đều sau Symmetric NAT.
-         Giải pháp: nhiều TURN endpoints bao gồm UDP 3478, TCP 80, TCP 443 và
-         TURNS/TLS 5349 để xuyên qua mọi loại tường lửa / NAT. */
+         PC-to-PC qua Symmetric NAT / CGNAT / VPN b?t bu?c c?n relay (TURN).
+         Chrome obfuscates local IPs (.local mDNS) n�n host candidates b? ?n.
+         STUN ch? cho srflx -- kh�ng d? khi c? hai d?u sau Symmetric NAT.
+         Gi?i ph�p: nhi?u TURN endpoints bao g?m UDP 3478, TCP 80, TCP 443 v�
+         TURNS/TLS 5349 d? xuy�n qua m?i lo?i tu?ng l?a / NAT. */
       /* --- TODO: PASTE YOUR REAL TURN CREDENTIALS HERE --- */
       /* --- Register for a free account at Metered.ca or Xirsys --- */
       TURN_DEMO: [
@@ -2763,7 +2763,7 @@
          connection object exists instead of when the first packet goes out,
          which is most of the handshake budget handed back. */
       ICE_POOL: 10,
-      /* camera pitch hard stop: ±Math.PI*0.47 ≈ ±85°, prevents the view flipping over */
+      /* camera pitch hard stop: �Math.PI*0.47 � �85�, prevents the view flipping over */
       PITCH_LIMIT: Math.PI * 0.47,
       /* ---- the two PvP game modes (ONE source of truth) ----
          Every mode name, tag, colour and cap in this file reads these keys --
@@ -4052,7 +4052,7 @@
 
     renderer.render(scene, camera);
     /* ======================================================================
-       PART 2 — WEAPON / RAYCAST / PARTICLES / PLAYER / BOTS / PICKUPS
+       PART 2 � WEAPON / RAYCAST / PARTICLES / PLAYER / BOTS / PICKUPS
        ====================================================================== */
 
     /* ------------------------------------------------------------------
@@ -4569,7 +4569,7 @@
         }
         if (adsHeld !== undefined && adsHeld !== null) GUN.ads = !!adsHeld;
 
-        /* recoil spring — smooth, dt independent */
+        /* recoil spring � smooth, dt independent */
         const k = 78, c = 13.5;
         GUN.recoilVelP += (-k * GUN.recoilPitch - c * GUN.recoilVelP) * d;
         GUN.recoilPitch += GUN.recoilVelP * d;
@@ -4597,7 +4597,7 @@
     const _peuler = new THREE.Euler(0, 0, 0, 'YXZ');
 
     /* ======================================================================
-       C. FX MODULE — pooled tracers + instanced sparks/blood
+       C. FX MODULE � pooled tracers + instanced sparks/blood
        ====================================================================== */
     const FXG = (function () {
       /* ---- tracer pool ---- */
@@ -5853,7 +5853,7 @@
     Pickups.init();
     FXG.reset();
     /* ======================================================================
-       PART 3 — INPUT / PvE WAVES / PvP NETCODE / MAIN LOOP
+       PART 3 � INPUT / PvE WAVES / PvP NETCODE / MAIN LOOP
        ====================================================================== */
 
     /* ------------------------------------------------------------------
@@ -5872,7 +5872,7 @@
     const _trD = new THREE.Vector3();
 
     /* ------------------------------------------------------------------
-       PLAYER SETTINGS — look sensitivity (persisted in localStorage)
+       PLAYER SETTINGS � look sensitivity (persisted in localStorage)
        Mouse level 1..10 maps to 0.00108..0.0036 rad per pixel; level 5 keeps
        the original 0.0022 rad/px feel.
        ------------------------------------------------------------------ */
@@ -6113,7 +6113,7 @@
     };
 
     /* A row is OCCUPIED when the roster says somebody is in that seat. Empty
-       seats stay as muted TRÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚Â»Ãƒâ€šÃ‚ÂNG rows -- they are never removed. */
+       seats stay as muted TRÃƒÂ¡Ã‚Â»Ã‚ÂNG rows -- they are never removed. */
     Pvp.rowAt = function (seat) {
       Pvp.alloc();
       if (typeof seat !== 'number' || seat < 0 || seat >= Net.MAX) return null;
@@ -6347,7 +6347,7 @@
         c = Pvp.rows[i];
         r = Pvp.slots[i];
         if (!c || !r) continue;
-        txt = r.name ? r.name : 'TRỐNG';
+        txt = r.name ? r.name : 'TR?NG';
         var tid = Net.isTeamMode() ? Pvp.teamOf(i) : -1;
         cls = 'pbRow' + (r.name ? '' : ' empty') + (i === Net.selfSlot ? ' me' : '')
           + (r.name && !r.alive ? ' dead' : '') + (tid >= 0 ? ' t' + tid : '');
@@ -6362,8 +6362,8 @@
           c.repaint = false;
           c.name.textContent = txt;
           if (ttag) c.name.appendChild(Pvp.badge(ttag, 'teamTag t' + tid));
-          if (r.host) c.name.appendChild(Pvp.badge('★'));
-          if (i === Net.selfSlot) c.name.appendChild(Pvp.badge('BẠN'));
+          if (r.host) c.name.appendChild(Pvp.badge('?'));
+          if (i === Net.selfSlot) c.name.appendChild(Pvp.badge('B?N'));
         }
         pct = r.name && r.maxhp > 0 ? Math.round(Math.max(0, Math.min(1, r.hp / r.maxhp)) * 100) : 0;
         if (c.bar && c.bar.style.width !== pct + '%') c.bar.style.width = pct + '%';
@@ -6379,18 +6379,18 @@
       if (solo) {
         /* an honest ending: with no opponent there is no winner to name, in
            either mode -- the host ends that match by hand (btnEndSolo) */
-        head = 'Không có đối thủ — trận đấu kết thúc với ' + Pvp.occupied() + ' ngườngi.';
+        head = 'Kh�ng c� d?i th? � tr?n d?u k?t th�c v?i ' + Pvp.occupied() + ' ngu?ngi.';
       } else if (tid >= 0) {
         /* TDM: the TEAM wins and its own total is the score -- never a
            single player, and never one player's kill count standing in for
            a whole team */
-        head = CFG.teamName(tid) + ' chiến thắng với '
-          + Pvp.teamKills(tid) + '/' + Pvp.target() + ' mạng.';
+        head = CFG.teamName(tid) + ' chi?n th?ng v?i '
+          + Pvp.teamKills(tid) + '/' + Pvp.target() + ' m?ng.';
       } else if (seat >= 0) {
-        head = Pvp.nameOf(seat) + (Pvp.rowAt(seat) && Pvp.rowAt(seat).host ? ' (chủ phòng)' : '')
-          + ' đạt ' + Pvp.killsOf(seat) + '/' + Pvp.target() + ' mạng trước.';
+        head = Pvp.nameOf(seat) + (Pvp.rowAt(seat) && Pvp.rowAt(seat).host ? ' (ch? ph�ng)' : '')
+          + ' d?t ' + Pvp.killsOf(seat) + '/' + Pvp.target() + ' m?ng tru?c.';
       } else {
-        head = 'Trận đấu kết thúc mà chưa ai đạt ' + Pvp.target() + ' mạng.';
+        head = 'Tr?n d?u k?t th�c m� chua ai d?t ' + Pvp.target() + ' m?ng.';
       } for (i = 0; i < Net.MAX; i++) {
         r = Pvp.slots[i];
         if (!r || !r.name) continue;
@@ -6399,7 +6399,7 @@
         parts.push((tid >= 0 ? CFG.teamTag(r.team) + ' ' : '') + r.name + ' ' + r.kills);
       }
       if (!parts.length) return head;
-      return head + '   Tỉ số: ' + parts.join(' · ');
+      return head + '   T? s?: ' + parts.join(' � ');
     };
 
     Pvp.badge = function (txt, cls) {
@@ -6548,7 +6548,7 @@
     }
 
     /* ======================================================================
-       PvE — WAVE SURVIVAL
+       PvE � WAVE SURVIVAL
        ====================================================================== */
     const Wave = {
       wave: 0,
@@ -6783,9 +6783,9 @@
       if (look.isLocked && look.isLocked()) look.unlock();
       SFX.lose();
       showOver(
-        'BẠN ĐÃ THUA',
-        'Đợt ' + Wave.wave + '  •  Điểm ' + Wave.score + '  •  Đã hạ ' + Wave.killed + ' mục tiêu',
-        'CHƠI LẠI',
+        'B?N �� THUA',
+        '�?t ' + Wave.wave + '  �  �i?m ' + Wave.score + '  �  �� h? ' + Wave.killed + ' m?c ti�u',
+        'CHOI L?I',
         restartPvE
       );
     }
@@ -6808,7 +6808,7 @@
     }
 
     /* ======================================================================
-       PvP — 1v1 VIA PEERJS
+       PvP � 1v1 VIA PEERJS
        ====================================================================== */
     /* ======================================================================
        NETWORK CONFIG -- the ONE place the effective ICE server list is
@@ -6844,13 +6844,13 @@
       MAX_URLS: 400,
       MAX_CRED: 256,
       VI: {
-        "errRetryRelay": "Nối trực tiếp thất bại — đang thử lại qua relay…",
-        "errRetryRelayFail": "Cả kết nối trực tiếp lẫn qua relay đều thất bại.",
-        "hintRetryRelayFail": "Relay đã cấu hình nhưng không tới được. Hãy thử mạng khác.",
-        "diagNoPc": "không đọc được RTCPeerConnection",
-        "diagIdle": "chưa có kết nối",
-        "diagWaiting": "đang thu thập ICE…",
-        "connEmpty": "chưa có"
+        "errRetryRelay": "N?i tr?c ti?p th?t b?i � dang th? l?i qua relay�",
+        "errRetryRelayFail": "C? k?t n?i tr?c ti?p l?n qua relay d?u th?t b?i.",
+        "hintRetryRelayFail": "Relay d� c?u h�nh nhung kh�ng t?i du?c. H�y th? m?ng kh�c.",
+        "diagNoPc": "kh�ng d?c du?c RTCPeerConnection",
+        "diagIdle": "chua c� k?t n?i",
+        "diagWaiting": "dang thu th?p ICE�",
+        "connEmpty": "chua c�"
       },
       /* null until load() runs at boot; every reader tolerates it */
       data: null,
@@ -7145,11 +7145,10 @@
       TICK_MS: 50,
 
       getServerUrl: function () {
+        if (window.SERVER_URL) return window.SERVER_URL;
         const params = new URLSearchParams(window.location.search);
         if (params.has("server")) return params.get("server");
-        if (window.SERVER_URL) return window.SERVER_URL;
-        const isLocal = location.hostname === "localhost" || location.hostname === "127.0.0.1" || location.protocol === "http:";
-        return isLocal ? `ws://${location.hostname}:8080` : `wss://${location.hostname}`;
+        return "wss://fpszz.onrender.com";
       },
 
       connect: function (onOpen) {
@@ -7174,10 +7173,10 @@
             if (Net.inRoom) Net.lostConnection();
           };
           Net.ws.onerror = (err) => {
-            Net.status("Lỗi kết nối máy chủ.", true);
+            Net.status("L?i k?t n?i m�y ch?.", true);
           };
         } catch (e) {
-          Net.status("Không thể kết nối WebSocket.", true);
+          Net.status("Kh�ng th? k?t n?i WebSocket.", true);
         }
       },
 
@@ -7202,7 +7201,7 @@
         SFX.unlock();
         const code = Net.normCode(rawCode);
         if (code.length !== Net.CODE_LEN) {
-          Net.status("Mã phòng phải đúng " + Net.CODE_LEN + " ký tự.", true);
+          Net.status("M� ph�ng ph?i d�ng " + Net.CODE_LEN + " k� t?.", true);
           return;
         }
         Net.closeConn();
@@ -7248,7 +7247,7 @@
             Net.mode = data.mode || "ffa";
             if (UI.roomCode) UI.roomCode.textContent = data.code;
             if (data.roster) Net.setRoster(data.roster);
-            Net.status("Đã vào phòng — chờ bắt đầu.");
+            Net.status("�� v�o ph�ng � ch? b?t d?u.");
             Net.syncLobbyUi();
             break;
 
@@ -7302,12 +7301,12 @@
             break;
 
           case "CLOSED":
-            Net.lostConnection(data.msg || "Chủ phòng đã thoát.");
+            Net.lostConnection(data.msg || "Ch? ph�ng d� tho�t.");
             break;
 
           case "FULL":
           case "ERR":
-            Net.status(data.msg || "Lỗi kết nối.", true);
+            Net.status(data.msg || "L?i k?t n?i.", true);
             Net.closeConn();
             break;
 
@@ -7356,7 +7355,7 @@
         if (!Net.connected) return;
         Net.send({ t: "PING", ts: Date.now() });
         if (UI.netStatus) {
-          const txt = Net.ping > 0 ? ("ĐÃ KẾT NỐI  •  " + Net.ping + " ms") : "ĐÃ KẾT NỐI";
+          const txt = Net.ping > 0 ? ("�� K?T N?I  �  " + Net.ping + " ms") : "�� K?T N?I";
           UI.netStatus.textContent = txt;
           UI.netStatus.className = Net.ping > 220 ? "bad" : "ok";
         }
@@ -7384,9 +7383,9 @@
         Net.clearSlots(); Pvp.resetScore(); clearRemotes();
         if (wasPlaying) { Game.mode = "menu"; if (GUN.view) GUN.view.setVisible(false); }
         setScreen("lobby"); Net.syncLobbyUi();
-        const reason = why || "Kết nối đã đóng.";
+        const reason = why || "K?t n?i d� d�ng.";
         Net.status(reason, true);
-        Net.hint("Vào phòng mới để đấu tiếp.");
+        Net.hint("V�o ph�ng m?i d? d?u ti?p.");
         Net.fire("CLOSED", reason);
       },
 
@@ -7674,7 +7673,7 @@
       if (UI.pHpTxt) UI.pHpTxt.textContent = String(Math.ceil(player.health));
       if (UI.pvpFeed) UI.pvpFeed.innerHTML = '';
       if (UI.netStatus) {
-        UI.netStatus.textContent = 'ĐÃ KẾT NỐI';
+        UI.netStatus.textContent = '�� K?T N?I';
         UI.netStatus.className = 'ok';
       }
       spawnPvpField();
@@ -7688,7 +7687,7 @@
       if (UI.btnEndSolo) UI.btnEndSolo.hidden = !(Net.isHost && Pvp.occupied() < 2);
       Pvp.syncLocal();
       Pvp.renderBoard();
-      FX.banner(UI.centerMsg, 'BẮT ĐẦU!', 1400);
+      FX.banner(UI.centerMsg, 'B?T �?U!', 1400);
       SFX.waveStart();
       lockMouse();
     }
@@ -7714,12 +7713,12 @@
       if (UI.btnEndSolo) UI.btnEndSolo.hidden = !(Net.isHost && Pvp.occupied() < 2);
       Pvp.syncLocal();
       Pvp.renderBoard();
-      if (Net.connected) FX.banner(UI.centerMsg, 'VÁN MỚI!', 1400);
+      if (Net.connected) FX.banner(UI.centerMsg, 'V�N M?I!', 1400);
       else {
         Game.mode = 'menu';
         Game.paused = false;
         setScreen('lobby');
-        Net.status('Chưa có đối thủ — hãy tạo hoặc tham gia phòng.');
+        Net.status('Chua c� d?i th? � h�y t?o ho?c tham gia ph�ng.');
       }
     }
 
@@ -7728,7 +7727,7 @@
        ====================================================================== */
 
     /* requestPointerLock must be issued from a user gesture, and browsers ignore
-       it for ~1.2s right after an exit — hence the throttle + on-screen hint. */
+       it for ~1.2s right after an exit � hence the throttle + on-screen hint. */
     var _lockRetryAt = 0;
 
     function showLockHint(on) {
@@ -7912,7 +7911,7 @@
           Pvp.respawnT -= dt;
           if (UI.respawnTxt) {
             UI.respawnTxt.classList.add('on');
-            UI.respawnTxt.textContent = 'Hồi sinh sau ' + Math.max(0, Pvp.respawnT).toFixed(1) + 's';
+            UI.respawnTxt.textContent = 'H?i sinh sau ' + Math.max(0, Pvp.respawnT).toFixed(1) + 's';
           }
         }
         if (Pvp.deadNotified && Pvp.respawnT <= 0) {
@@ -7955,7 +7954,7 @@
       Pvp.renderBoard();
       if (UI.pAmmo) {
         if (GUN.reloading) {
-          UI.pAmmo.textContent = 'ĐANG NẠP… ' + Math.max(0, GUN.reloadT).toFixed(1) + 's';
+          UI.pAmmo.textContent = '�ANG N?P� ' + Math.max(0, GUN.reloadT).toFixed(1) + 's';
         } else {
           UI.pAmmo.textContent = GUN.ammo + ' / ' + GUN.reserve;
         }
@@ -7965,7 +7964,7 @@
       if (UI.reloadTxt) UI.reloadTxt.textContent = GUN.reloading ? 'RELOADING' : '';
 
       if (!player.alive && UI.centerMsg && !UI.centerMsg.classList.contains('on')) {
-        UI.centerMsg.textContent = 'BẠN ĐÃ BỊ HẠ GỤC';
+        UI.centerMsg.textContent = 'B?N �� B? H? G?C';
         UI.centerMsg.classList.add('on');
       } else if (player.alive && UI.centerMsg) {
         UI.centerMsg.textContent = '';
@@ -7977,8 +7976,8 @@
       if (player.health <= 0 && !Pvp.deadNotified) {
         Pvp.deadNotified = true;
         Pvp.respawnT = 3;
-        /* overrides the '+1 MẠNG' banner the opponent's kill just put up */
-        FX.banner(UI.centerMsg, 'BẠN ĐÃ BỊ HẠ GỤC', 3200);
+        /* overrides the '+1 M?NG' banner the opponent's kill just put up */
+        FX.banner(UI.centerMsg, 'B?N �� B? H? G?C', 3200);
       }
       if (player.health > 0) Pvp.deadNotified = false;
 
@@ -8073,11 +8072,11 @@
            when nothing was set up. */
         Net.reset();
         if (!Net.hasPeer()) {
-          Net.status('Không tải được PeerJS, kiểm tra mạng.', true);
-          Net.hint('Không tải được PeerJS — hãy kiểm tra kết nối mạng rồi thử lại.');
+          Net.status('Kh�ng t?i du?c PeerJS, ki?m tra m?ng.', true);
+          Net.hint('Kh�ng t?i du?c PeerJS � h�y ki?m tra k?t n?i m?ng r?i th? l?i.');
         } else {
-          Net.status('Tạo phòng hoặc nhập mã để vào trận.');
-          Net.hint('Bấm TẠO PHÒNG để nhận mã 4 ký tự, hoặc nhập mã của bạn bè.');
+          Net.status('T?o ph�ng ho?c nh?p m� d? v�o tr?n.');
+          Net.hint('B?m T?O PH�NG d? nh?n m� 4 k� t?, ho?c nh?p m� c?a b?n b�.');
         }
         setScreen('lobby');
       });
@@ -8119,7 +8118,7 @@
         SFX.unlock();
         var okT = Net.requestMode('tdm');
         if (!okT && (!Net.isHost || !Net.inRoom)) {
-          Net.status('Chỉ chủ phòng mới đổi được được chế độ.', true);
+          Net.status('Ch? ch? ph�ng m?i d?i du?c du?c ch? d?.', true);
         }
       });
     }
@@ -8130,7 +8129,7 @@
         SFX.unlock();
         var okF = Net.requestMode('ffa');
         if (!okF && (!Net.isHost || !Net.inRoom)) {
-          Net.status('Chỉ chủ phòng mới đổi được được chế độ.', true);
+          Net.status('Ch? ch? ph�ng m?i d?i du?c du?c ch? d?.', true);
         }
       });
     }
@@ -8170,21 +8169,21 @@
          falling back to it is exactly how a dead code stayed copyable after a
          back-out; with no live room there is nothing useful to copy. */
       var code = Net.code || '';
-      if (!code || code === '----') { Net.status('Chưa có mã phòng để sao chép.', true); return; }
+      if (!code || code === '----') { Net.status('Chua c� m� ph�ng d? sao ch�p.', true); return; }
       if (navigator.clipboard && navigator.clipboard.writeText) {
         navigator.clipboard.writeText(code).then(function () {
-          Net.status('Đã sao chép mã ' + code);
+          Net.status('�� sao ch�p m� ' + code);
           SFX.pickup();
         }, function () {
-          Net.status('Sao chép thất bại, ghi nhớ mã: ' + code, true);
+          Net.status('Sao ch�p th?t b?i, ghi nh? m�: ' + code, true);
         });
       } else {
-        Net.status('Ghi nhớ mã phòng: ' + code);
+        Net.status('Ghi nh? m� ph�ng: ' + code);
       }
     });
 
 
-    /* ESC / pause key — toggles the settings panel on and off (never sticks) */
+    /* ESC / pause key � toggles the settings panel on and off (never sticks) */
     window.addEventListener('keydown', function (e) {
       if (e.code !== 'Escape') return;
       e.preventDefault();
@@ -8197,7 +8196,7 @@
     }, { passive: false });
 
     /* the cursor escaping the canvas (alt-tab, Esc in the browser, focus loss)
-       drops straight into the settings panel — the part-1 listener already flipped
+       drops straight into the settings panel � the part-1 listener already flipped
        Game.paused, so the panel has to be forced up or the match freezes silently */
     document.addEventListener('pointerlockchange', function () {
       var locked = (document.pointerLockElement === UI.canvas);
@@ -8347,7 +8346,7 @@
     }
 
     /* ======================================================================
-       WAVE A — WEAPON ARSENAL
+       WAVE A � WEAPON ARSENAL
        Six procedural view models, per-weapon ammo pools, ADS scopes.
        Inserted before the BOOT section so it can override GUN/GUN.onHit.
        ====================================================================== */
@@ -9123,7 +9122,7 @@
     };
 
     /* ------------------------------------------------------------------
-       GUN extensions — weapon driven, old call sites keep working.
+       GUN extensions � weapon driven, old call sites keep working.
        GUN.ammo / GUN.reserve stay mirrored to the CURRENT weapon pool.
        ------------------------------------------------------------------ */
     GUN.fireCd = CFG.FIRE_CD;
@@ -9329,7 +9328,7 @@
       }
       if (triggerDown !== undefined) GUN.setTrigger(triggerDown);
 
-      /* recoil spring — smooth, dt independent */
+      /* recoil spring � smooth, dt independent */
       var k = 78, c = 13.5;
       GUN.recoilVelP += (-k * GUN.recoilPitch - c * GUN.recoilVelP) * d;
       GUN.recoilPitch += GUN.recoilVelP * d;
@@ -9357,7 +9356,7 @@
     };
 
     /* ------------------------------------------------------------------
-       SFX — per-weapon shot voices (all synthesis, no assets)
+       SFX � per-weapon shot voices (all synthesis, no assets)
        ------------------------------------------------------------------ */
     (function () {
       var lastWeaponShot = -1;
@@ -9422,7 +9421,7 @@
     })();
 
     /* ------------------------------------------------------------------
-       Desktop weapon switching — number row, numpad, mouse wheel
+       Desktop weapon switching � number row, numpad, mouse wheel
        ------------------------------------------------------------------ */
 
     function switchWeapon(dir) {
@@ -9461,14 +9460,14 @@
     }
 
     /* ------------------------------------------------------------------
-       HUD additions — weapon name + the ammo readout
+       HUD additions � weapon name + the ammo readout
        ------------------------------------------------------------------ */
     function updateWeaponHud() {
       var d = Arsenal.cur;
       if (!d) return;
       if (UI.wpnName) UI.wpnName.textContent = d.short;
       if (UI.ammo) UI.ammo.textContent = String(GUN.ammo);
-      if (UI.reserve) UI.reserve.textContent = '/ ' + GUN.reserve + '  •  x' + d.pellets;
+      if (UI.reserve) UI.reserve.textContent = '/ ' + GUN.reserve + '  �  x' + d.pellets;
     }
 
     /* ------------------------------------------------------------------
@@ -9735,7 +9734,7 @@
     Shells.build();
     bindArsenalInput();
 
-    /* 10. game over is the last stop before the attract loop — never leave the
+    /* 10. game over is the last stop before the attract loop � never leave the
        scope (and the zoomed FOV) up behind the panel */
     var _showOverBase = showOver;
     showOver = function (title, sub, btnLabel, action) {
@@ -9748,7 +9747,7 @@
       return r;
     };
     /* ======================================================================
-       WAVE B — WEAPON SELECTION UI  +  MOBILE SWITCH BUTTONS
+       WAVE B � WEAPON SELECTION UI  +  MOBILE SWITCH BUTTONS
        One panel reused by PvE and PvP. Chips are generated from Arsenal.list,
        so the UI can never drift from the weapon table.
        ====================================================================== */
@@ -10112,7 +10111,7 @@
 
 
     /* ======================================================================
-       WAVE C — MOBILE HUD LAYOUT EDITOR
+       WAVE C � MOBILE HUD LAYOUT EDITOR
        The virtual buttons are positioned with left/top PERCENTAGES and scaled
        with a transform, so one saved layout survives rotation, a resize, and
        any device from a 5" phone to a tablet.
@@ -10130,7 +10129,7 @@
       KEY: 'fps_mobile_hud_v2',
       LABEL: {
         btnFire: 'FIRE', btnAim: 'AIM', btnJump: 'JUMP', btnReload: 'RELOAD',
-        btnPause: 'MENU · gear', btnWeaponNext: 'SWAP', btnWeaponPrev: 'PREV',
+        btnPause: 'MENU � gear', btnWeaponNext: 'SWAP', btnWeaponPrev: 'PREV',
       },
       MIN_S: 0.7, MAX_S: 1.5, PAD: 4, DRAG_PX: 5,
       /* WAVE H1: per-control opacity. A plain factor stored beside `scale`,
@@ -10234,7 +10233,7 @@
         return (el && el.textContent ? el.textContent : id);
       },
 
-      /* finite number or null — never throws, never returns NaN */
+      /* finite number or null � never throws, never returns NaN */
       num: function (v) {
         var n = (typeof v === 'number') ? v : parseFloat(v);
         return (typeof n === 'number' && isFinite(n)) ? n : null;
@@ -10567,7 +10566,7 @@
           el.style.left = L.left.toFixed(3) + '%';
           el.style.top = L.top.toFixed(3) + '%';
           /* transform-origin is the button centre (default), so scale() keeps the
-             visual centre on the left/top anchor — the % stays valid at any size */
+             visual centre on the left/top anchor � the % stays valid at any size */
           el.style.transform = 'translate(-50%,-50%) scale(' + L.scale.toFixed(4) + ')';
           /* WAVE H1: opacity is a per-control factor. Fully opaque clears the
              inline value instead of writing 1, so the button keeps falling back
@@ -10761,7 +10760,7 @@
 
       syncPanel: function () {
         var L = MobileHud.selected ? MobileHud.layout[MobileHud.selected] : null;
-        if (UI.hudSelName) UI.hudSelName.textContent = MobileHud.selected ? MobileHud.labelOf(MobileHud.selected) : '—';
+        if (UI.hudSelName) UI.hudSelName.textContent = MobileHud.selected ? MobileHud.labelOf(MobileHud.selected) : '�';
         var pct = L ? Math.round(L.scale * 100) : 100;
         if (UI.hudScale) {
           var v = String(Math.min(150, Math.max(70, pct)));
@@ -10790,7 +10789,7 @@
            joystick entry is the selected one */
         var cur = MobileHud.stickWH(MobileHud.layout[MobileHud.STICK]);
         if (UI.stickSize) MobileHud.put(UI.stickSize, cur ? Math.round(cur.w) : '');
-        if (UI.stickSizeVal) UI.stickSizeVal.textContent = (cur ? Math.round(cur.w) : '—') + 'px';
+        if (UI.stickSizeVal) UI.stickSizeVal.textContent = (cur ? Math.round(cur.w) : '�') + 'px';
         MobileHud.setRowOn(UI.stickSize, isStick);
       },
 
@@ -10890,7 +10889,7 @@
         }
       },
 
-      /* a plain tap only SELECTS — the button follows the finger past a threshold */
+      /* a plain tap only SELECTS � the button follows the finger past a threshold */
       _move: function (id, x, y, ev) {
         if (!MobileHud.editing || MobileHud.dragId !== id) return;
         if (!MobileHud.dragMoved) {
@@ -11108,7 +11107,7 @@
     syncSettingsUi();
     if (typeof Net !== 'undefined') { Net.buildRosterUi(); Net.syncLobbyUi(); }
 
-    Net.hint('Kết nối qua WebSocket máy chủ.');
+    Net.hint('K?t n?i qua WebSocket m�y ch?.');
     startLoop();
     renderer.render(scene, camera);
 
